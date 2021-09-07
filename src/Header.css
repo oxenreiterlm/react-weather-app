@@ -1,0 +1,53 @@
+.Header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 25px;
+}
+
+.citySearch {
+  border-radius: 20px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: 4px solid #72a298;
+  outline-width: 0px;
+  box-shadow: 5px 5px 2px #e2dede;
+  height: 46px;
+  width: 300px;
+}
+
+button {
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 4px 16px 4px 16px;
+  margin-left: 10px;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  opacity: 65%;
+}
+.logo {
+  height: 100px;
+  margin-right: 70px;
+  left: 50%;
+  top: 50%;
+  transform: translate(0, -25%);
+}
+
+.search {
+  background-color: #72a298;
+  color: white;
+  box-shadow: 5px 5px 2px #e2dede;
+  border: 4px solid #e88d66;
+}
+.currentLoc {
+  background-color: white;
+  color: #72a298;
+  border-style: solid;
+  border: #849299;
+  border-width: 6px;
+  margin-right: 0;
+  box-shadow: 5px 5px 2px #e2dede;
+  border: 4px solid #e88d66;
+}
