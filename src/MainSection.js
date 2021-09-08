@@ -1,6 +1,5 @@
 import React from "react";
 import CurrentWeather from "./CurrentWeather";
-import TodaysWeather from "./TodaysWeather";
 import "./MainSection.css";
 
 export default function MainSection() {
@@ -9,7 +8,6 @@ export default function MainSection() {
       <div className="today'sWeather">
         <div className="row">
           <CurrentWeather />
-          <TodaysWeather />
         </div>
       </div>
     </div>

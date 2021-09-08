@@ -1,12 +1,10 @@
 import React from "react";
-import logo from "./media/weatherNowLogo.png";
 import "./Header.css";
 
 export default function Header() {
   return (
     <div className="Header">
       <form id="search">
-        <img className="logo" src={logo} alt="Weather Now Logo" />
         <input
           className="citySearch"
           type="text"
