@@ -83,19 +83,7 @@ ul {
 hr {
   margin-bottom: 0;
 }
-.comingUp {
-  margin: 0 0 0 10;
-}
-.weatherForecastDate {
-  font-size: 30px;
-  font-weight: 500;
-}
-.weatherForecastTemps {
-  font-size: 24px;
-}
-.weatherForecastTempMin {
-  opacity: 70%;
-}
-.forecastedPrecipLine {
-  font-size: 20px;
+.weeklyForecast {
+  display: flex;
+  text-align: center;
 }
