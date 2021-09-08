@@ -4,7 +4,10 @@ import "./Signature.css";
 export default function TodaysWeather() {
   return (
     <div className="Signature">
-      <a href="https://github.com/oxenreiterlm/weather-now" target="blank">
+      <a
+        href="https://github.com/oxenreiterlm/react-weather-app"
+        target="blank"
+      >
         Open-source code
       </a>{" "}
       by Laura Oxenreiter
