@@ -49,3 +49,14 @@ a {
 hr {
   margin-bottom: 0;
 }
+
+.dailyForecast {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+.forecastIcon {
+  max-width: 70%;
+  margin: 0 auto;
+}

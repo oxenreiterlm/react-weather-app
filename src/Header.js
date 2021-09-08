@@ -9,8 +9,8 @@ export default function Header() {
           className="citySearch"
           type="text"
           placeholder="Search a city . . ."
-          autocomplete="off"
-          autofocus="on"
+          autoComplete="off"
+          autoFocus="on"
           id="input-city"
         />
         <button className="search">Search</button>
