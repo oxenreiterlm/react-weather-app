@@ -4,7 +4,7 @@ import sunny from "./media/sunny_icon.svg";
 export default function CurrentWeather() {
   return (
     <div>
-      <div>
+      <div className="currentLocAndTime">
         <h2>
           Currently in <em className="cityUpdate">Pittsburgh</em>:
         </h2>
@@ -13,15 +13,15 @@ export default function CurrentWeather() {
         </div>
       </div>
       <div className="row align-items-start">
-        <div className="col-sm-5 ">
+        <div className="col-sm-6 ">
           <img
             id="current-weather-icon"
-            className="currentIcon"
+            className="currentIcon img-fluid d-flex"
             alt="Current Weather"
             src={sunny}
           />
         </div>
-        <div className="col">
+        <div className="col-sm-6">
           <h3 className="currentCard">
             <span id="temp">89</span>
             <span className="units">

@@ -1,6 +1,8 @@
 .MainSection {
   margin-top: 30px;
   margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   border-style: solid;
   border-color: #72a298;
   padding: 10px;
@@ -10,14 +12,16 @@
 
 h2 {
   font-size: 30px;
-  text-align: center;
+  text-align: left;
+  margin-left: 10px;
   padding-top: 8px;
 }
 .currentDateTime {
   padding-bottom: 20px;
 }
 h6 {
-  text-align: center;
+  text-align: left;
+  margin-left: 10px;
   font-style: italic;
 }
 
@@ -50,13 +54,21 @@ hr {
   margin-bottom: 0;
 }
 
+.weeklyForecast {
+  margin-top: 30px;
+}
+
 .dailyForecast {
   display: flex;
   justify-content: center;
   text-align: center;
   font-size: 20px;
 }
+.day {
+  font-weight: 600;
+}
+
 .forecastIcon {
-  max-width: 70%;
+  max-width: 60%;
   margin: 0 auto;
 }
