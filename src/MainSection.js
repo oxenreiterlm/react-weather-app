@@ -1,15 +1,15 @@
 import React from "react";
 import CurrentWeather from "./CurrentWeather";
+import WeeklyForecast from "./WeeklyForecast.js";
 import "./MainSection.css";
 
 export default function MainSection() {
   return (
     <div className="MainSection">
-      <div className="today'sWeather">
-        <div className="row">
-          <CurrentWeather />
-        </div>
+      <div className="row">
+        <CurrentWeather />
       </div>
+      <WeeklyForecast />
     </div>
   );
 }

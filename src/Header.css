@@ -27,13 +27,6 @@ button {
 button:hover {
   opacity: 65%;
 }
-.logo {
-  height: 100px;
-  margin-right: 70px;
-  left: 50%;
-  top: 50%;
-  transform: translate(0, -25%);
-}
 
 .search {
   background-color: #72a298;

@@ -1,7 +1,5 @@
 import React from "react";
 import sunny from "./media/sunny_icon.svg";
-import "./CurrentWeather.css";
-import WeeklyForecast from "./WeeklyForecast.js";
 
 export default function CurrentWeather() {
   return (
@@ -43,7 +41,6 @@ export default function CurrentWeather() {
             <div id="humidity-input">humidity: 90%</div>
           </h4>
         </div>
-        <WeeklyForecast />
       </div>
     </div>
   );
