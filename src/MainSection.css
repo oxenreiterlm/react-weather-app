@@ -15,43 +15,33 @@
 h2 {
   font-size: 30px;
   text-align: left;
-  margin-left: 10px;
+  text-align: center;
   padding-top: 8px;
 }
-.currentDateTime {
-  padding-bottom: 20px;
-}
 h6 {
-  text-align: left;
-  margin-left: 10px;
+  text-align: center;
   font-style: italic;
 }
-
 .currentIcon {
   height: 140px;
   vertical-align: middle;
-
   margin: 0 auto;
 }
-a {
-  text-decoration: none;
+.currentTempWithUnits {
+  display: inline;
 }
-.inactive {
-  text-decoration-line: none;
+.currentTemp {
+  font-size: 30px;
 }
-.inactive:hover {
-  text-decoration: none;
+.currentUnits {
+  font-size: 20px;
 }
-.active {
-  color: #415c57;
-  cursor: default;
-  text-decoration: none;
+.currentDesc {
+  font-size: 26px;
 }
-
-.active:hover {
-  text-decoration: none;
+.otherCurrentDesc {
+  font-size: 20px;
 }
-
 hr {
   margin-bottom: 0;
 }
