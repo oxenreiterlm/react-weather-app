@@ -1,8 +1,8 @@
 .MainSection {
   margin-top: 30px;
   margin-bottom: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 120px;
+  margin-right: 120px;
   border-style: solid;
   border-color: #72a298;
   padding: 10px;
@@ -31,13 +31,13 @@ h6 {
   display: inline;
 }
 .currentTemp {
-  font-size: 30px;
+  font-size: 28px;
 }
 .currentUnits {
   font-size: 20px;
 }
 .currentDesc {
-  font-size: 26px;
+  font-size: 24px;
 }
 .otherCurrentDesc {
   font-size: 20px;
@@ -47,14 +47,19 @@ hr {
 }
 
 .weeklyForecast {
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: solid 3px #b8d0cb;
+  border-radius: 6px;
 }
 
 .dailyForecast {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
 }
 .day {
   font-weight: 600;
