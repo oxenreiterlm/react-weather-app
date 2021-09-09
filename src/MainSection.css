@@ -6,8 +6,10 @@
   border-style: solid;
   border-color: #72a298;
   padding: 10px;
-  border-radius: 6px;
-  border-width: 4px;
+  border-radius: 12px;
+  border-width: 6px;
+  background-color: #e2ecea;
+  box-shadow: 5px 5px 1px #f3f7f6;
 }
 
 h2 {

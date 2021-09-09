@@ -2,9 +2,4 @@
   font-family: "Raleway", sans-serif;
   color: #415c57;
   height: 100vh;
-  background: linear-gradient(
-    184deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(164, 232, 218, 1) 45%
-  );
 }
