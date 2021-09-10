@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import FormattedDate from "./FormattedDate.js";
 
 export default function CurrentWeather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -7,6 +8,7 @@ export default function CurrentWeather(props) {
     console.log(response.data);
     setWeatherData({
       ready: true,
+      date: new Date(response.data.dt * 1000),
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       wind: response.data.wind.speed,
@@ -21,7 +23,9 @@ export default function CurrentWeather(props) {
         <div className="currentLocAndTime">
           <h2 className="cityUpdate">{weatherData.city}</h2>
           <div className="currentDateTime">
-            <h6 id="date-time-now">Updated: 8/29/21 at 8:02</h6>
+            <h6 id="date-time-now">
+              <FormattedDate date={weatherData.date} />
+            </h6>
           </div>
         </div>
         <div className="row">
