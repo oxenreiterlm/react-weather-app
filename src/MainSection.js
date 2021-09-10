@@ -9,7 +9,7 @@ export default function MainSection() {
     <div className="MainSection">
       <div className="row">
         <Header />
-        <CurrentWeather />
+        <CurrentWeather defaultCity="Pittsburgh" />
       </div>
       <WeeklyForecast />
     </div>
