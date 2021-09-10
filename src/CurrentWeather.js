@@ -5,7 +5,6 @@ import FormattedDate from "./FormattedDate.js";
 export default function CurrentWeather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       date: new Date(response.data.dt * 1000),
