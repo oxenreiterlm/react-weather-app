@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <MainSection defaultCity="Pittsburgh" />
+        <MainSection />
       </div>
       <Signature />
     </div>

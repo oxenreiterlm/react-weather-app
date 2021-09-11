@@ -19,6 +19,25 @@ export default function CurrentWeather(props) {
   if (weatherData.ready) {
     return (
       <div>
+        <div className="Header">
+          <form id="search">
+            <input
+              className="citySearch"
+              type="text"
+              placeholder="Search a city . . ."
+              autoComplete="off"
+              autoFocus="on"
+              id="input-city"
+            />
+            <button className="search">Search</button>
+            <button className="currentLoc">
+              <span role="img" aria-label="compass" alt="compass">
+                🧭
+              </span>
+              Current Location
+            </button>
+          </form>
+        </div>
         <div className="currentLocAndTime">
           <h2 className="cityUpdate">{weatherData.city}</h2>
           <div className="currentDateTime">
