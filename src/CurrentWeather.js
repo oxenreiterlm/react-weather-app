@@ -35,17 +35,17 @@ export default function CurrentWeather(props) {
     return (
       <div>
         <div className="Header">
-          <form id="search">
+          <form id="search" onSubmit={handleSubmit}>
             <input
               className="citySearch"
-              type="text"
+              type="search"
               placeholder="Search a city . . ."
               autoComplete="off"
               autoFocus="on"
               id="input-city"
               onChange={handleCityChange}
             />
-            <button className="search" onSubmit={handleSubmit}>
+            <button className="search" type="submit" value="Search">
               Search
             </button>
             <button className="currentLoc">
