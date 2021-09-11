@@ -13,7 +13,7 @@ export default function FormattedDate(props) {
   let day = days[props.date.getDay()];
   let hours = props.date.getHours();
   let meridian = "am";
-  if (hours > 12) {
+  if (hours > 11) {
     meridian = "pm";
   }
 
