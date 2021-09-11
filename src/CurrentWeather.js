@@ -45,9 +45,7 @@ export default function CurrentWeather(props) {
               id="input-city"
               onChange={handleCityChange}
             />
-            <button className="search" type="submit" value="Search">
-              Search
-            </button>
+            <input className="search" type="submit" value="Search" />
             <button className="currentLoc">
               <span role="img" aria-label="compass" alt="compass">
                 🧭
