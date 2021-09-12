@@ -25,10 +25,10 @@ export default function CurrentWeather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    search();
   }
   function handleCityChange(event) {
     setCity(event.target.value);
-    search();
   }
 
   if (weatherData.ready) {
@@ -45,7 +45,9 @@ export default function CurrentWeather(props) {
               id="input-city"
               onChange={handleCityChange}
             />
-            <input className="search" type="submit" value="Search" />
+            <button className="search" type="submit" value="Search">
+              Search
+            </button>
             <button className="currentLoc">
               <span role="img" aria-label="compass" alt="compass">
                 🧭
