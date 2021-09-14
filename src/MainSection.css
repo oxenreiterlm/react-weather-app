@@ -78,10 +78,18 @@ h6 {
   display: inline;
 }
 .currentTemp {
-  font-size: 28px;
+  font-size: 40px;
 }
 .currentUnits {
-  font-size: 20px;
+  font-size: 18px;
+  position: relative;
+  top: -12px;
+}
+.currentUnits a {
+  text-decoration: none;
+}
+.currentUnits a:hover {
+  opacity: 80%;
 }
 .currentDesc {
   font-size: 24px;
