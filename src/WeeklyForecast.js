@@ -14,7 +14,10 @@ export default function WeeklyForecast() {
               className="img-fluid forecastIcon"
             />
           </div>
-          <div className="row dailyForecast">80°/68°</div>
+          <div className="forecastTemps d-flex justify-content-center">
+            <span className="maxTemp pe-1">80°</span>
+            <span className="minTemp">68°</span>
+          </div>
         </div>
         <div className="col-sm-3">
           <div className="row dailyForecast day">Thu</div>
@@ -25,7 +28,10 @@ export default function WeeklyForecast() {
               className="img-fluid forecastIcon"
             />
           </div>
-          <div className="row dailyForecast">80°/68°</div>
+          <div className="forecastTemps d-flex justify-content-center">
+            <span className="maxTemp pe-1">80°</span>
+            <span className="minTemp">68°</span>
+          </div>
         </div>
         <div className="col-sm-3">
           <div className="row dailyForecast day">Fri</div>
@@ -36,7 +42,10 @@ export default function WeeklyForecast() {
               className="img-fluid forecastIcon"
             />
           </div>
-          <div className="row dailyForecast">80°/68°</div>
+          <div className="forecastTemps d-flex justify-content-center">
+            <span className="maxTemp pe-1">80°</span>
+            <span className="minTemp">68°</span>
+          </div>
         </div>
         <div className="col-sm-3">
           <div className="row dailyForecast day">Sat</div>
@@ -47,7 +56,10 @@ export default function WeeklyForecast() {
               className="img-fluid forecastIcon"
             />
           </div>
-          <div className="row dailyForecast">80°/68°</div>
+          <div className="forecastTemps d-flex justify-content-center">
+            <span className="maxTemp pe-1">80°</span>
+            <span className="minTemp">68°</span>
+          </div>
         </div>
       </div>
     </div>

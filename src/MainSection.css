@@ -114,13 +114,18 @@ hr {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 18px;
 }
+
 .day {
   font-weight: 600;
+  font-size: 20px;
 }
 
 .forecastIcon {
   max-width: 60%;
   margin: 0 auto;
+}
+
+.minTemp {
+  opacity: 75%;
 }
