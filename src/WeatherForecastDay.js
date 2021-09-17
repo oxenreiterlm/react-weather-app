@@ -14,7 +14,6 @@ export default function WeatherForecastDay(props) {
     let date = new Date(props.data.dt * 1000);
     let day = date.getDay();
     let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-    console.log(props.data);
     return days[day];
   }
   function precipitation() {
@@ -25,13 +24,13 @@ export default function WeatherForecastDay(props) {
     <div className="WeatherForecastDay">
       <div className="dailyForecast day">{day()}</div>
       <div className="d-flex justify-content-center">
-        <WeatherIcon code={props.data.weather[0].icon} size={48} />
+        <WeatherIcon code={props.data.weather[0].icon} size={40} />
       </div>
       <div className="forecastTemps d-flex justify-content-center">
         <span className="maxTemp pe-1">{maxTemperature()}°</span>
         <span className="minTemp">{minTemperature()}°</span>
       </div>
-      <div className="d-flex justify-content-center">{precipitation()}%💧❄</div>
+      <div className="d-flex justify-content-center">{precipitation()}%💧</div>
     </div>
   );
 }
