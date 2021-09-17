@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo.js";
+import WeeklyForecast from "./WeeklyForecast.js";
 
 export default function CurrentWeather(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -8,6 +9,7 @@ export default function CurrentWeather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
+      coord: response.data.coord,
       date: new Date(response.data.dt * 1000),
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
@@ -18,7 +20,7 @@ export default function CurrentWeather(props) {
     });
   }
   function search() {
-    const apiKey = "7c78b83b2a3e65f370802905f8ab06e0";
+    const apiKey = "8fa4cb7231bf2903d6edf1c11f74aca3";
     let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
     axios.get(apiURL).then(handleResponse);
   }
@@ -57,6 +59,7 @@ export default function CurrentWeather(props) {
           </form>
         </div>
         <WeatherInfo data={weatherData} />
+        <WeeklyForecast coord={weatherData.coord} />
       </div>
     );
   } else {
