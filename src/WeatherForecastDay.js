@@ -17,7 +17,7 @@ export default function WeatherForecastDay(props) {
     return days[day];
   }
   function precipitation() {
-    let chanceOfPrecip = Math.round(props.data.pop * 10);
+    let chanceOfPrecip = Math.round(props.data.pop * 100);
     return `${chanceOfPrecip}`;
   }
   return (
