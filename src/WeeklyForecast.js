@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState } from "react";
-import partlyCloudy from "./media/partly_cloudy_icon.svg";
+import WeatherForecastDay from "./WeatherForecastDay.js";
 
 export default function WeeklyForecast(props) {
   let [loaded, setLoaded] = useState(false);
@@ -13,25 +13,8 @@ export default function WeeklyForecast(props) {
   if (loaded) {
     return (
       <div className="row weeklyForecast">
-        <div className="row">
-          <div className="col-sm-3">
-            <div className="row dailyForecast day">{forecast[0].dt}</div>
-            <div className="row">
-              <img
-                src={partlyCloudy}
-                alt="partly cloudy"
-                className="img-fluid forecastIcon"
-              />
-            </div>
-            <div className="forecastTemps d-flex justify-content-center">
-              <span className="maxTemp pe-1">
-                {Math.round(forecast[0].temp.max)}°
-              </span>
-              <span className="minTemp">
-                {Math.round(forecast[0].temp.min)}°
-              </span>
-            </div>
-          </div>
+        <div className="col-sm-3">
+          <WeatherForecastDay data={forecast[0]} />
         </div>
       </div>
     );

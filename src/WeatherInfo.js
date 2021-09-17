@@ -16,8 +16,8 @@ export default function WeatherInfo(props) {
       </div>
       <div className="row">
         <div className="col-sm-4">
-          <div className="currentIcon img-fluid d-flex float-end me-4">
-            <WeatherIcon code={props.data.icon} />
+          <div className="d-flex float-end me-4">
+            <WeatherIcon code={props.data.icon} size={84} />
           </div>
         </div>
         <div className="col-sm-3 align-self-center p-0">

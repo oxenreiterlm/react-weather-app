@@ -69,11 +69,7 @@ h6 {
   text-align: center;
   font-style: italic;
 }
-.currentIcon {
-  height: 100px;
-  vertical-align: middle;
-  margin: 0 auto;
-}
+
 .currentTempWithUnits {
   display: inline;
 }
