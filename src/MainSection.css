@@ -29,8 +29,8 @@ button:hover {
 }
 
 .search {
-  background-color: white;
-  color: #c25532;
+  background-color: #c25532;
+  color: white;
   box-shadow: 5px 5px 2px #e2dede;
   border: 4px solid #c25532;
 }
