@@ -27,7 +27,7 @@ export default function FormattedDate(props) {
 
   return (
     <div>
-      {day} {hours}:{minutes}
+      Updated: {day} {hours}:{minutes}
       {meridian}
     </div>
   );

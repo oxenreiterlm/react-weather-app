@@ -50,12 +50,6 @@ export default function CurrentWeather(props) {
             <button className="search" type="submit" value="Search">
               Search
             </button>
-            <button className="currentLoc">
-              <span role="img" aria-label="compass" alt="compass">
-                🧭
-              </span>
-              Current Location
-            </button>
           </form>
         </div>
         <WeatherInfo data={weatherData} />

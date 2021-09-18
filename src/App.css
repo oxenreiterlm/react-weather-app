@@ -3,3 +3,8 @@
   color: #415c57;
   height: 100vh;
 }
+.wholePageImg {
+  background-size: auto;
+  background-position: top left;
+  margin: 0 auto;
+}
