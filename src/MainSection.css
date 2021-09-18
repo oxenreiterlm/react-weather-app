@@ -114,9 +114,32 @@ h6 {
   opacity: 65%;
 }
 
+@media (min-width: 577px) {
+  .formBr {
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
   .MainSection {
     margin-left: 20;
     margin-right: 20;
+  }
+  .citySearch {
+    justify-content: center;
+    width: 200px;
+  }
+  .search {
+    margin-top: 6px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+  }
+  .weatherForecastDay {
+    margin-top: 14px;
+  }
+  .otherCurrentDesc {
+    text-align: center;
   }
 }

@@ -47,6 +47,7 @@ export default function CurrentWeather(props) {
               id="input-city"
               onChange={handleCityChange}
             />
+            <br className="formBr" />
             <button className="search" type="submit" value="Search">
               Search
             </button>

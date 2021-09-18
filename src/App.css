@@ -9,3 +9,9 @@
   background-position: top left;
   margin: 0 auto;
 }
+
+@media (max-width: 576px) {
+  .App {
+    padding-top: 20px;
+  }
+}

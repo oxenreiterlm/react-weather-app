@@ -6,7 +6,9 @@ export default function App() {
   return (
     <div
       className="wholePageImg"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+      }}
     >
       <div className="App">
         <div className="container">
