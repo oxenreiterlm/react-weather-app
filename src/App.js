@@ -1,7 +1,7 @@
 import "./App.css";
 import MainSection from "./MainSection";
 import Signature from "./Signature";
-import backgroundImage from "./media/blue-lotus.gif";
+import backgroundImage from "./media/itsBrightOutside.gif";
 
 export default function App() {
   return (
@@ -10,7 +10,7 @@ export default function App() {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="App">
-        <div className="container">
+        <div className="container align-items-center">
           <MainSection />
         </div>
         <Signature />

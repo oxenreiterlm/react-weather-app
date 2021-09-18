@@ -1,7 +1,8 @@
 .App {
   font-family: "Glory", sans-serif;
-  color: #415c57;
+  color: #63110a;
   height: 100vh;
+  padding-top: 50px;
 }
 .wholePageImg {
   background-size: auto;
