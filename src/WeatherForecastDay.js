@@ -30,7 +30,9 @@ export default function WeatherForecastDay(props) {
         <span className="maxTemp pe-1">{maxTemperature()}°</span>
         <span className="minTemp">{minTemperature()}°</span>
       </div>
-      <div className="d-flex justify-content-center">{precipitation()}%💧</div>
+      <div className="d-flex justify-content-center precipitationPercent">
+        {precipitation()}%💧
+      </div>
     </div>
   );
 }
