@@ -111,7 +111,7 @@ h6 {
 }
 
 .minTemp {
-  opacity: 65%;
+  opacity: 0.75;
 }
 
 @media (min-width: 577px) {
