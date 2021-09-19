@@ -7,6 +7,7 @@ export default function TodaysWeather() {
       <a
         href="https://github.com/oxenreiterlm/react-weather-app"
         target="blank"
+        title="GitHub repository"
       >
         Open-source code
       </a>{" "}
