@@ -15,12 +15,12 @@ export default function WeatherInfo(props) {
         </div>
       </div>
       <div className="row weatherToday">
-        <div className="col-4">
+        <div className="col">
           <div className=" d-md-flex float-md-end me-md-4">
             <WeatherIcon code={props.data.icon} size={84} />
           </div>
         </div>
-        <div className="col-3 align-self-center p-0">
+        <div className="col align-self-center p-0">
           <div className="row currentTempWithUnits p-0">
             <WeatherTemperature
               fahrenheit={Math.round(props.data.temperature)}
