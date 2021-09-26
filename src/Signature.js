@@ -8,10 +8,19 @@ export default function TodaysWeather() {
         href="https://github.com/oxenreiterlm/react-weather-app"
         target="blank"
         title="GitHub repository"
+        className="gitHubLink"
       >
         Open-source code
       </a>{" "}
-      by Laura Oxenreiter
+      by{" "}
+      <a
+        href="https://gifted-edison-603b21.netlify.app/"
+        target="blank"
+        title="Portfolio"
+        className="profileLink"
+      >
+        Laura Oxenreiter
+      </a>
     </div>
   );
 }
